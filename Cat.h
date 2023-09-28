@@ -21,7 +21,4 @@ public:
     // member function that causes the cat to hack up a hairball
     void retch();
 
-private:
-    std::string m_name; // data member containing the cat's name
-
 }; // end class Cat

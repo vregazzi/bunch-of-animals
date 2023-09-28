@@ -21,7 +21,4 @@ public:
     // member function that causes the dog to fetch a stick
     void fetch();
 
-private:
-    std::string m_name; // data member containing the dog's name
-
 }; // end class Dog
