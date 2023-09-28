@@ -15,13 +15,6 @@ public:
     // constructor
     explicit Dog(std::string_view name);
 
-    // member function that sets the name of dog
-    // std::string_view is a read-only view of a string introduced in C++17
-    void setName(std::string_view name);
-
-    // member function retrieves the dog's name
-    const std::string &getName() const;
-
     // member function that causes the dog to speak/bark
     void speak();
 

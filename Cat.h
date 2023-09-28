@@ -15,13 +15,6 @@ public:
     // Constructor - uses member initializer
     explicit Cat(std::string_view name);
 
-    // member function that sets name of the cat
-    // std::string_view is a read-only view of a string introduced in C++17
-    void setName(std::string_view name);
-
-    // member function that retrieves the cat's name
-    const std::string &getName() const;
-
     // member function that causes the cat to speak
     void speak();
 
